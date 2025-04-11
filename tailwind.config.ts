@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,33 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for our student wellbeing platform
+				"edu-purple": {
+					50: "#F2EFFF",
+					100: "#E5DEFF",
+					200: "#D3C8FF",
+					300: "#B9A7FF",
+					400: "#9B87F5",
+					500: "#7E69AB",
+					600: "#6A5390",
+					700: "#564275",
+					800: "#3D2E52"
+				},
+				"edu-blue": {
+					50: "#F0F7FF",
+					100: "#D3E4FD",
+					200: "#A7C9FB",
+					300: "#7BAEF9",
+					400: "#4F93F7",
+					500: "#1EAEDB"
+				},
+				"edu-green": {
+					50: "#F2FCE2",
+					100: "#E3F8C0",
+					200: "#C8EF8A",
+					300: "#A5DD4B",
+					400: "#79B61F"
 				}
 			},
 			borderRadius: {
@@ -70,25 +98,27 @@ export default {
 			},
 			keyframes: {
 				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
+					from: { height: '0' },
+					to: { height: 'var(--radix-accordion-content-height)' }
 				},
 				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
-					},
-					to: {
-						height: '0'
-					}
+					from: { height: 'var(--radix-accordion-content-height)' },
+					to: { height: '0' }
+				},
+				'pulse-slow': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.7' }
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-slow': 'pulse-slow 3s infinite ease-in-out',
+				'float': 'float 6s infinite ease-in-out'
 			}
 		}
 	},

@@ -1,13 +1,4 @@
-Excellent 👌
-Là on monte d’un niveau avec **Study Spark Compass** 🔥
 
-Comme il est aussi en ligne, on va faire un README plus solide, plus “produit”, plus orienté solution.
-
-Voici la version professionnelle prête à copier dans ton `README.md` :
-
----
-
-```markdown
 # Study Spark Compass 🎓✨
 
 Plateforme web interactive conçue pour accompagner les étudiants dans leur organisation académique, leur motivation et leur suivi d’apprentissage.

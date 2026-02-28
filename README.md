@@ -1,73 +1,116 @@
-# Welcome to your Lovable project
+Excellent 👌
+Là on monte d’un niveau avec **Study Spark Compass** 🔥
 
-## Project info
+Comme il est aussi en ligne, on va faire un README plus solide, plus “produit”, plus orienté solution.
 
-**URL**: https://lovable.dev/projects/e2a0fa9e-f285-4200-a682-783b2f29d038
+Voici la version professionnelle prête à copier dans ton `README.md` :
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+```markdown
+# Study Spark Compass 🎓✨
 
-**Use Lovable**
+Plateforme web interactive conçue pour accompagner les étudiants dans leur organisation académique, leur motivation et leur suivi d’apprentissage.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e2a0fa9e-f285-4200-a682-783b2f29d038) and start prompting.
+🌐 **Version en ligne :** https://study-spark-compass.lovable.app/
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🎯 À propos du projet
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Study Spark Compass est une application web destinée à aider les étudiants à :
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Organiser leurs tâches académiques
+- Structurer leur plan d’étude
+- Suivre leur progression
+- Maintenir leur motivation
 
-Follow these steps:
+Le projet met en avant une interface moderne, intuitive et responsive, adaptée aux ordinateurs et aux appareils mobiles.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Fonctionnalités principales
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Gestion des tâches académiques
+- Organisation des objectifs d’étude
+- Interface interactive
+- Navigation fluide et responsive
+- Expérience utilisateur claire et structurée
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+---
+
+## 🧰 Technologies utilisées
+
+| Technologie | Rôle |
+|-------------|------|
+| HTML5 | Structure des pages |
+| CSS3 | Design et responsive layout |
+| JavaScript | Logique interactive |
+| Git & GitHub | Gestion du code |
+| Lovable App | Hébergement |
+
+---
+
+## 🖥️ Aperçu
+
+### Interface principale
+![Aperçu principal](images/preview-main.png)
+
+### Version mobile
+![Aperçu mobile](images/preview-mobile.png)
+
+---
+
+## 📂 Structure du projet
+
 ```
 
-**Edit a file directly in GitHub**
+study-spark-compass/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── script.js
+├── images/
+│   └── captures d’écran
+├── README.md
+└── LICENSE
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📚 Compétences développées
 
-## What technologies are used for this project?
+- Conception d’une application web orientée productivité
+- Structuration d’un projet frontend interactif
+- Responsive Design
+- Amélioration de l’expérience utilisateur (UX)
+- Déploiement en ligne
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📌 Améliorations possibles
 
-## How can I deploy this project?
+- Ajout d’un système d’authentification
+- Sauvegarde des données en base de données
+- Création d’une API backend
+- Tableau de bord utilisateur personnalisé
 
-Simply open [Lovable](https://lovable.dev/projects/e2a0fa9e-f285-4200-a682-783b2f29d038) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 📄 Licence
 
-Yes it is!
+Ce projet est distribué sous licence MIT.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 👤 Auteur
+
+Marcus Drew  
+GitHub : https://github.com/Marcusdrew
+```
+
+
+
+On fait le prochain repo ? 😎
